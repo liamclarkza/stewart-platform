@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Controller/Src/stepper_driver.c&apos; to &apos;stepper_driver.h&apos;" description="Rename resource &apos;stepper_driver.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Src/stepper_driver.c" name="stepper_driver.h" stamp="1538299728810" updateReferences="true"/>
+</session>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="Default C source template" key="LastUsedSourceTemplate"/>
+	<item value="Default C header template" key="LastUsedHeaderTemplate"/>
+	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration.internal">
+		<item value="180" key="size.height"/>
+		<item value="423" key="size.width"/>
+	</section>
+	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration">
+	</section>
+	<section name="completion_proposal_size">
+		<item value="232" key="size.y"/>
+		<item value="495" key="size.x"/>
+	</section>
+</section>

@@ -1,0 +1,18 @@
+17:41:17 **** Incremental Build of configuration Debug for project Controller ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F407xx -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Src\main.o ..\Src\main.c 
+arm-atollic-eabi-gcc -o Controller.elf Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.o Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.o Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.o Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.o Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.o Src\main.o Src\stm32f4xx_hal_msp.o Src\stm32f4xx_it.o Src\system_stm32f4xx.o Src\usb_device.o Src\usbd_cdc_if.o Src\usbd_conf.o Src\usbd_desc.o startup\startup_stm32f407xx.o -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T../STM32F407VG_FLASH.ld -specs=nosys.specs -static -Wl,-Map=Controller.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 -Wl,--start-group -lc -lm -Wl,--end-group -specs=nano.specs 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.1\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.1\Tools\arm-atollic-reports.jar sizeinfo list Controller.elf 
+Generate build reports...
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+  26704	    832	   9572	  37108	   90f4	Controller.elf
+Print size information done
+Generate listing file
+Output sent to: Controller.list
+Generate listing file done
+Generate build reports done
+arm-atollic-eabi-objcopy.exe -O ihex Controller.elf Controller.hex 
+
+17:41:20 Build Finished (took 2s.696ms)
+
